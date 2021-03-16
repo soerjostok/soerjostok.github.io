@@ -1,0 +1,212 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h2 {
+  margin: 0 0 20px;
+  color: #FF7900;
+  text-align: center;
+  text-shadow: 3px 0.1px 0.9px #A95000;
+}
+h3 {
+  margin: 0 0 20px;
+  color: #FF7900;
+  text-align: center;
+  text-shadow: 3px 0.1px 0.9px #A95000;
+}
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbar-brand {
+	font-weight: 500;
+    text-shadow: 1px 0.1px 0.9px #FF7900;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/Expat.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 300px;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 6px 0.1px 0.9px #FF7900;
+}
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 3px 0.1px 0.9px #FF7900;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #FF7900;
+}
+td {
+	padding-left: 35px;
+	text-align: center;
+}
+#background-image {
+	background-image: url("../images/singapore-marina-bay-sands-6-black-and-white-martin-hroch copy 5.jpg");
+}
+.btn.btn-secondary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #FF7900;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.col-12 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+p1 {
+	font-style: normal;
+}
+.col-12 p {
+	font-style: italic;
+}
+.jumbotron-fluid {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/Jason-Momoa-jason-momoa-38420750-2000-1000 copy1.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #FF7900;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: antiquewhite;
+  color: #FF7900;
+}
+label {
+	font-weight: 600
+}
+#demo {
+    background: linear-gradient(112deg, darkorange 50%, antiquewhite 50%);
+    max-width: 900px;
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+.image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+i {
+    background-color: rgb(223, 56, 89);
+    padding: 1.4rem
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+footer {
+	padding-top: 10px;
+	padding-bottom: 10px
+}
