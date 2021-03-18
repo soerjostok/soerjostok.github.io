@@ -4,6 +4,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	text-align: justify;
+	background-image: linear-gradient(to bottom, aliceblue, lightcyan)
 }
 img {
 	max-width: 100%;
